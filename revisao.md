@@ -57,13 +57,15 @@ Pesquisas de IHC envolvendo pessoas devem seguir a resolução do Conselho Nacio
 * Principio de autonomia, consentimento livre dos individuos e proteção dos grupos vulneraveis/legalmente incapazes;
 * Principio da beneficencia, ponderação entre riscos e beneficios, comprometendo-se com o máximo de benefícios e o mínimo de danos e risco.
 Na prática, é explicado os objetivos aos participantes; garantido a confidencialidade e a privacidade dos dados coletados; garantia do anonimato dos dados divulgados; solicitado permissão para coleta de dados, geralmente sob assinatura de um termo de consentimento; assegurado aos participantes o direito de liberdade de recusar ou desistir de participar da pesquisa a qualquer momento. 
-# Perguntar sobre os códigos de conduta (IEEE,ACM,SBC,W3C)
 
 ### Qualidade de uso em IHC
+Envolve critérios distintos, porém interligados, que afetam uns aos outros.
 #### Critérios para qualidade de uso
+Nem sempre é possivel satisfazer todos os critérios de qualidade, então é preciso definir quais critérios devem ser priorizados.
 ##### Usabilidade
 Conceito norma ISO 9126 (pouco utilizada na área de IHC)
 > Um conjunto de atributos relacionados com o esforço necessário para o uso de um sistema interativo, e relacionados com a avaliação individual de tal uso, por um conjunto específico de usuário
+
 Conceito norma ISO 9241 (bastante utilizada na área de IHC)
 > O grau em que um produto é usado por usuários específicos para atingir objetivos específicos com eficácia, eficiencia e satisfação em um contexto específico
 
@@ -74,24 +76,60 @@ Conceito segundo Preece
 > É um conjunto de fatores, são chamados de **Metas de Usabilidade**, sendo estas ser eficaz no uso (eficácia), eficiente no uso (eficiencia), seguro no uso (segurança), ter boa utilidade (utilidade), ser fácil de aprender (learnability) e ser fácil de lembrar como usar (memorability). 
 
 O objetivo das *Metas de Usabilidade* está em fornecer ao designer de interação um meio concreto para avaliar os vários aspectos de um produto e da experiencia do usuário.
-As perguntas devem ser claras detalhadas afim de extrair muita informação.
-# Perguntar sobre como devem ser formuladas as perguntas
+As perguntas devem ser claras detalhadas afim de extrair muita informação. Essas perguntas são desenvolvidos pelo time de design direcionadas ao próprio time.
 
 #### Experiência do usuário
 Envolve o modo como os sistemas interativos afetam os sentimentos e as emoções dos usuários.
 Dentre as **Metas de experiencia do usuário** podemos citar sistema ser agradável, prazeroso, prestativo, desafiador, divertido... entre outros. Aspectos **indesejáveis** está na interface ser tediosa, frustrante, irritante, artificial/falso.
 
+#### Acessibilidade
+Esta em oferecer meios para que o usuário interaja com o sistema sem que a interface imponha obstáculos. Pessoas com ou sem limitação possuem igual importancia, sejam essas limitações de movimento, percepção, cognição ou de aprendizado. É lei federal que os portais públicos possuam acessibilidade da cegos.
+
+#### Comunicabilidade
+A interface deve comunicar ao usuário a lógica de uso sobre:
+* A quem se destina o sistema;
+* Para que ele serve;
+* Qual a vantagem ao utilizá-lo;
+* Como ele funciona
+* Quais os princípios gerais de interação
+Com isso permitimos que o usuário tire melhor proveito do sistema por comunicar estratégias de uso para cada situação.
 
 
+### Qualidade de Interface
+Historicamente ligada a amigabilidade, pode ser analisada de diferentes pontos de vista.
+* Facilidade de aprendizado e uso
+* Performace satisfatória (eficácia erro% | eficiencia vel. uso)
 
-    Acessibilidade
-    Comunicabilidade
-Importância de IHC
-Qualidade de Interface
-Princípios de usabilidade
-Aspectos envolvidos na interação
-    Usuário
-    Tarefas
-    Tecnologias
-    Contexto
-Estilos de interação
+### Usabilidade
+Adequação entre características (físicas/cognitivas) dos usuários e características da interação com o sistema para realização de tarefas.
+*Propridade da união entre usuário/sistema/tarefa*
+
+#### Princípios de usabilidade
+* Visibilidade de qual estado estamos no sistema
+* Correspondência entre o sistema e o mundo real
+* Liberdade de controle fácil pro usuário
+* Consistência e padrões
+* Prevenções de erros
+* Reconhecimento em vez de memorização
+* Flexibilidade e eficiência de uso
+* Estética e design minimalista
+* Ajude os usuários a reconhecerem, diagnosticarem e recuperarem-se de erros
+* Ajuda e documentação
+
+#### Aspectos envolvidos na interação
+* Usuário
+Usuários possuem diferentes características: motivação, cultura, idade, medos de ser subtituido, medo de errar e diferentes niveis de experiencia com computadores.
+Devemos considerar também características físicas, cognitivas, culturais, sociológicas e organizacionais.
+
+* Tarefas
+As tarefas que fazem parte do processo de trabalho, relaciona com as responsibilidades de cada usuário dentro do sistema e podem contem ser manuais, automáticas ou interativas.
+
+* Tecnologias
+O que diz respeito ao hardware e software disponivel para suportar a interação.
+
+* Contexto
+Os contextos de interação podem ser permanentes/estáticos ou efemero/dinamico.
+
+### Estilos de interação
+São os modelos de interação entre o usuário e o sistema. Geralmente vários estilos estão disponiveis na mesma interface.
+Pode-se citar menus, teclas de atalho, formulários, linguagem de comando, perguntas/resposta (instalador) entre outros.
