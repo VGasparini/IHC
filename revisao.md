@@ -182,8 +182,10 @@ Comunicar: tornar a interação mais natural
 #### Ciclo de desenvolvimento
 Concepção tradicional
 * Pouco ou nenhuma consideração ao ponto de vista do usuário. Orientação a sistema, ausencia de modelos para IHC. Qualidade interna maior prioridade. **Design from user**
+
 Concepção centrada no usuário
 * Consideração dos aspectos cognitivos e físicos. Qualidade externa prioridade. Conhecer o usuário, adaptar o sistema, dar máximo de controle, auxiliar e perdoar. **Design for user**
+
 Concepção orientada a usabilidade
 * Consideração de aspectos da realização do trabalho além dos aspectos cognitivos e físicos. Integra qualidade interna e externa. Necessidades solicitadas explicitamente ao usuário **Design for user needs**
 
