@@ -94,7 +94,6 @@ A interface deve comunicar ao usuário a lógica de uso sobre:
 * Quais os princípios gerais de interação
 Com isso permitimos que o usuário tire melhor proveito do sistema por comunicar estratégias de uso para cada situação.
 
-
 ### Qualidade de Interface
 Historicamente ligada a amigabilidade, pode ser analisada de diferentes pontos de vista.
 * Facilidade de aprendizado e uso
@@ -128,8 +127,45 @@ As tarefas que fazem parte do processo de trabalho, relaciona com as responsibil
 O que diz respeito ao hardware e software disponivel para suportar a interação.
 
 * Contexto
-Os contextos de interação podem ser permanentes/estáticos ou efemero/dinamico.
+Os contextos de interação externos ao sistema mas que interferem no uso.
 
 ### Estilos de interação
 São os modelos de interação entre o usuário e o sistema. Geralmente vários estilos estão disponiveis na mesma interface.
 Pode-se citar menus, teclas de atalho, formulários, linguagem de comando, perguntas/resposta (instalador) entre outros.
+
+---
+
+## Critérios Ergonômicos
+> O conjunto de conhecimentos ciêntíficos relativos ao homem e necessários à concepção de instrumentos, máqinas e dispositivos que possam ser utilizados com o máximo de conforto, segurança e eficácia
+
+A orgonomia visa adaptação das tarefas ao homem, trazendo bem estar, qualidade, produtividade, satisfação e redução de custos.
+Em IHC trabalhamos principalmente com a ergonomia cognitiva, fazendo com que o trabalho se adapte ao homem.
+O projeto de uma interface deve seguir critérios ergonômicos que definem quais são as qualidades que devem ser atribuidas ao sistema *durante o projeto*, ou seja, deve-se trabalhar a comunicação usuário X sistema durante o desenvolvimento.
+
+Scapin e Bastien 1993 definiram um conjunto de critérios e sub-critérios
+
+* Condução
+    * Presteza - Verifique se o sistema informa e conduz o usuário durante a interação.
+    * Agrupamento - Verifique se a distribuição espacial dos itens traduz as relações entre as informações.
+    * Feedback imediato - Avalie a qualidade do feedback imediato às ações do usuário.
+    * Legibilidade - Verifique a legibilidade das informações apresentadas nas telas do sistema.
+* Carga de trabalho
+    * Brevidade - Verifique o tamanho dos códigos e termos apresentados e introduzidos no sistema.
+    * Ações mínimas - Verifique a extensão dos diálogos estabelecidos para a realização dos objetivos do usuário.
+    * Densidade informacional - Avalie a densidade informacional das telas apresentadas pelo sistema.
+* Controle explícito
+    * Ações explícitas - Verifique se é o usuário quem comanda explicitamente as ações do sistema.
+    * Controle do usuário - Avalie as possibilidades do usuário controlar o encadeamento e a realização das ações.
+* Adaptabilidade
+    * Flexibilidade - Verifique se o sistema permite personalizar as apresentações e os diálogos.
+    * Consideração da experiência do usuário - Avalie se usuários com diferentes níveis de experiência têm iguais possibilidades de obter sucesso em seus objetivos.
+* Gestão de erros
+    * Proteção - Verifique se o sistema oferece as oportunidades para o usuário prevenir eventuais erros.
+    * Qualidade das mensagens - Avalie a qualidade das mensagens de erro enviadas aos usuários em dificuldades.
+    * Correção - Verifique as facilidades oferecidas para que o usuário possa corrigir os erros cometidos.
+* Homogeneidade/Consistência
+    * Avalie se é mantida uma coerência no projeto de códigos, telas e diálogos com o usuário.
+* Significado dos códigos e denominações
+    * Avalie se os códigos e denominações são claros e significativos para os usuários do sistema.
+* Compatibilidade
+    * Verifique a compatibilidade do sistema com as expectativas e necessidades do usuário em sua tarefa.
