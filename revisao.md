@@ -199,3 +199,54 @@ Concepção orientada a usabilidade
 * Como provocar as críticas/sugestões dos usuários?
 ##### Avaliação
 * O sistema e sua interface suportam adequadamente as tarefas dos usuários?
+
+---
+
+### WIMP x WEB
+Interfaces WIMP (windows, icons, menus and pointers) ou em português (janelas, ícones, menus e ponteiros) representam uma gama de interfaces gráficas tradicionais. Em comparação com as interfaces web (que tem como características serem fornecidas através da hipermídia: hiperdocumentos + multimídia)
+* Dinamicidade na estrutura
+    * A web cresce em paralelo enquanto a WIMP são estruturas estáticas
+* Usuário não é o dono da aplicação
+    * O cliente/usuário na web possui acesso a plataforma, mas não é o dono em si. Já as WIMP os usuários são os proprioetários e podem reformular.
+* Usuário utiliza browser
+    * A aplicação está rodando no browser, ao mudar de site você está mudando de aplicação. WIMP as aplicações estão dentro do escopo do sistema/programa.
+* Alta frequencia de modificação
+    * Aplicações tradicionais é mais custoso alteração, web as modificações são rápidas e baratas
+* Alto potencial de falhas
+    * O número potencial de falhas no web é muito maior que em aplicações WIMP. Quando há uma falha o usuário pode ir para outro site.
+* Dependência do browser
+    * Algumas aplicações variam de comportamento de acordo com o browser usado.
+
+---
+
+### Avaliação de Interfaces
+#### Problema de usabilidade
+> Um aspecto do sistema e/ou demanda sobre o usuário que torna o sistema desagradável, ineficiente, oneroso ou impossível de permitir a realização dos objetivos do usuário em uma situação típica de uso.
+
+Métricas ou fatores a serem observados
+* Desempenho do usuário durante a realização de tarefas
+* Satisfação subjetiva
+* Correspondência com os objetivos do usuário
+* Adequação à padrões
+Classificar o problema
+* Natureza
+    * Barreira
+    * Obstáculo
+    * Ruído
+* Tarefa
+    * Principal
+    * Secundário
+* Usuário
+    * Geral
+    * Preliminar
+    * Especializado
+    * Especial
+Grau de severidade 0-4
+0 - Sem importância
+1 - Cosmético
+2 - Simples (pode ser reparado)
+3 - Grave   (deve ser reparado)
+4 - Catastrófico
+#### Métodos de avaliação
+* Sem participação de usuários: inspeção cognitiva, avaliação heurística, GOMS
+* Validação com usuários: opinião da interação, dados comportamentais e experimentos
