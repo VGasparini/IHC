@@ -136,7 +136,7 @@ Pode-se citar menus, teclas de atalho, formulários, linguagem de comando, pergu
 ---
 
 ## Critérios Ergonômicos
-> O conjunto de conhecimentos ciêntíficos relativos ao homem e necessários à concepção de instrumentos, máqinas e dispositivos que possam ser utilizados com o máximo de conforto, segurança e eficácia
+> Um conjunto de conhecimentos ciêntíficos relativos ao homem e necessários à concepção de instrumentos, máqinas e dispositivos que possam ser utilizados com o máximo de conforto, segurança e eficácia
 
 A orgonomia visa adaptação das tarefas ao homem, trazendo bem estar, qualidade, produtividade, satisfação e redução de custos.
 Em IHC trabalhamos principalmente com a ergonomia cognitiva, fazendo com que o trabalho se adapte ao homem.
@@ -169,3 +169,33 @@ Scapin e Bastien 1993 definiram um conjunto de critérios e sub-critérios
     * Avalie se os códigos e denominações são claros e significativos para os usuários do sistema.
 * Compatibilidade
     * Verifique a compatibilidade do sistema com as expectativas e necessidades do usuário em sua tarefa.
+
+---
+
+### Concepção de Interfaces
+
+#### Princípios básicos
+Organizar: prover o usuário uma estrutura conceitual clara e consistente, layout claro, boa navegabilidade, foco de atenção.
+Economizar: minimizar as ações e tempo de resposta do usuário
+Comunicar: tornar a interação mais natural
+
+#### Ciclo de desenvolvimento
+Concepção tradicional
+* Pouco ou nenhuma consideração ao ponto de vista do usuário. Orientação a sistema, ausencia de modelos para IHC. Qualidade interna maior prioridade. **Design from user**
+Concepção centrada no usuário
+* Consideração dos aspectos cognitivos e físicos. Qualidade externa prioridade. Conhecer o usuário, adaptar o sistema, dar máximo de controle, auxiliar e perdoar. **Design for user**
+Concepção orientada a usabilidade
+* Consideração de aspectos da realização do trabalho além dos aspectos cognitivos e físicos. Integra qualidade interna e externa. Necessidades solicitadas explicitamente ao usuário **Design for user needs**
+
+#### Questões de concepção
+##### Análise contextual
+* Quais são os usuários?
+* Quais as tarefas serão suportadas?
+* Qual o  contexto de realização destas tarefas?
+##### Projeto de interface
+* Quais comandos e ações o usuário pode realizar através da interface?
+* Como os componentes da interface serão apresentados aos usuários?
+##### Prototipação
+* Como provocar as críticas/sugestões dos usuários?
+##### Avaliação
+* O sistema e sua interface suportam adequadamente as tarefas dos usuários?
